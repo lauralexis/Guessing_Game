@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600);
+/* General */
+body {
+	background: #cfd8dc;
+	color: #37474f;
+	font-weight: 600;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+hr {
+	border-bottom: 2px solid #cfd8dc;
+}
+.callout {
+	border: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h4, h5 {
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #37474f;	
+	text-align: center;
+}
+
+/* Header */
+header {
+	padding: 3em 0 2em;
+	letter-spacing: 1px;
+}
+header h1 {
+	font-size: 4em;
+	font-weight: 300;
+	line-height: 1;
+	text-align: center;
+	margin-bottom: 0;
+}
+header h1 span {
+	display: block;
+	font-size: 40%;
+	letter-spacing: 0;
+	padding: 0.5em 0 1em 0;
+}
+
+/* Form Styles */
+[type='number'] {
+	height: 4rem;
+	font-size: 1.2rem;	
+}
+[type='number'] {
+	box-shadow: 0 0 5px #7986cb;
+}
+
+/* Button Styles */
+.button.large { 
+	min-width: 270px;
+	border-width: 3px;
+	border-radius: 70px;
+}
+.style1 {
+    background: #7986cb;
+    color: #ECEFF1;
+	border-color: #7986cb;
+}
+.style1:hover, .style1:focus {
+	background: #fff;
+    color: #7986cb;
+}
+.style2 {
+	background: #37474f;
+    color: #fff;
+	border-color: #37474f;
+}
+.style2:hover, .style2:focus {
+	background: #cfd8dc;
+    color: #37474f;
+}
+.style3, .style3:focus {
+	color: #37474f;
+    background: #fff;
+	border-color: #37474f;
+}
+.style3:hover {
+	color: #fff;
+    background: #37474f;
+}
+
+	
